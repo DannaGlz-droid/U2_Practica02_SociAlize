@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    background-image: url(/image.png);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.btn-login {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}

@@ -1,0 +1,61 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    background-image: url('/image.png');
+    background-size: cover;
+    background-position-y: center;
+}
+
+.register-container {
+    max-width: 450px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.btn-register {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-register:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.message-box {
+    display: none;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.error-message {
+    background-color: #ffcdd2;
+    color: #b71c1c;
+}
+
+.success-message {
+    background-color: #c8e6c9;
+    color: #1b5e20;
+}
+
+#other-gender {
+    display: none;
+}

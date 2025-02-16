@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline - SociAlize</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/timeline.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">SociAlize</a>
+        </div>
+    </nav>
+
+    <div class="container-flex">
+        <div class="left-sidebar">
+            <div class="groups-card">
+                <h5 class="text-center">🌟 Grupos recomendados</h5>
+                <ul class="groups-list">
+                    <li class="group-item">
+                        <img src="https://picsum.photos/50/50?random=11" alt="Grupo">
+                        <div class="group-info">
+                            <p class="mb-1 fw-bold">Viajeros</p>
+                            <button class="btn btn-sm btn-outline-primary join-btn">Unirse</button>
+                        </div>
+                    </li>
+                    <li class="group-item">
+                        <img src="https://picsum.photos/50/50?random=12" alt="Grupo">
+                        <div class="group-info">
+                            <p class="mb-1 fw-bold">Programadores</p>
+                            <button class="btn btn-sm btn-outline-primary join-btn">Unirse</button>
+                        </div>
+                    </li>
+                    <li class="group-item">
+                        <img src="https://picsum.photos/50/50?random=13" alt="Grupo">
+                        <div class="group-info">
+                            <p class="mb-1 fw-bold">Diseño Creativo</p>
+                            <button class="btn btn-sm btn-outline-primary join-btn">Unirse</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <div class="timeline-container" id="timeline-container"></div>
+
+        <div class="right-sidebar">
+            <div class="profile-card">
+                <img src="https://picsum.photos/100/100?random=10" alt="Mi perfil" class="profile-img">
+                <h5 class="profile-name">Danna González</h5>
+                <p class="profile-username">@dannagonzalez</p>
+                <p class="profile-bio">🌟 Viviendo la vida al máximo</p>
+                <a href="profile.html" class="btn btn-profile">Ver perfil</a>
+            </div>
+            <div class="trending-card">
+                <h5>Tendencias</h5>
+                <ul>
+                    <li>#SocialMedia</li>
+                    <li>#Tendencias</li>
+                    <li>#SociAlize</li>
+                    <li>#NuevasFotos</li>
+                    <li>#Innovación</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+   <script src="/timeline.js"></script>
+</body>
+</html>
